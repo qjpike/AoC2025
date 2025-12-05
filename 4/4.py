@@ -12,13 +12,10 @@ for y, row in enumerate(inp):
     for x, char in enumerate(row):
         if char == "@":
             field.add((x,y))
-#         x = max(x, max_x)
-#     y = max(y, max_y)
 
-# max_x += 1
-# max_y += 1
 old_count = len(field)
 first_time = True
+count = 0
 
 while True:
     new_field = dc(field)
