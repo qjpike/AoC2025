@@ -11,7 +11,7 @@ for i, operand in enumerate(inp[-1]):
     elif operand == "*":
         count_1 += int(inp[0][i]) * int(inp[1][i]) * int(inp[2][i]) * int(inp[3][i])
 
-print(count_1) 
+print("Part One:", count_1) 
 
 count_2 = 0
 idx = 0
@@ -48,4 +48,4 @@ while idx <= len(inp_2[-1]):
     count_2 += col_amount 
     idx = next_idx + 1
 
-print(count_2)
+print("Part Two:", count_2)
