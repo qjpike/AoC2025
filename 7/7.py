@@ -13,7 +13,6 @@ for y, row in enumerate(inp):
         elif char == "^":
             splitter_set.add((x,y))
 
-
 splits = 0
 for _ in inp:
     new_beam_dict = defaultdict(int)
